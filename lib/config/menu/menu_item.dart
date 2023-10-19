@@ -31,7 +31,15 @@ class MenuItem
     (
       title: 'Tarjetas', 
       subtitle: 'Un contenedor estilizado', 
-      link: '/card', 
+      link: '/cards', 
       icon: Icons.credit_card
-    )
+    ),
+
+    //MenuItem
+    //(
+      //title: 'KAKA', 
+      //subtitle: 'Una kaka', 
+      //link: '/kk', 
+      //icon: Icons.read_more
+    //)
   ];
