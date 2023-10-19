@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:widget_apps/config/menu/menu_item.dart';
-import 'package:widget_apps/presetantion/screens/buttons/buttons_screen.dart';
-import 'package:widget_apps/presetantion/screens/cards/cards_screen.dart';
-import 'package:widget_apps/presetantion/screens/kk/kk_screen.dart';
 
 class HomeScreen extends StatelessWidget 
 {
@@ -98,7 +95,7 @@ class _CustomListTile extends StatelessWidget
           //);
           //Navigator.pushNamed(context, menuItem.link);
         //}
-        
+
         context.push(menuItem.link);
       },
     );
